@@ -6,7 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет мир!");
+            int x1 = 1;
+            int y1 = 3;
+            char sum1 = '*';
+
+            Console.SetCursorPosition(x1, y1);
+            Console.Write(sum1);
+
             Console.ReadLine();
         }
     }
